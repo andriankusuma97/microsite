@@ -9,6 +9,6 @@ import { Router } from '@angular/router';
 export class CardCategoryComponent {
   constructor(private router: Router) {}
   navigateToNextPage() {
-    this.router.navigate(['/breakdown']); // Navigasi ke '/next' (sesuaikan dengan path yang sesuai)
+    this.router.navigate(['/test']); // Navigasi ke '/next' (sesuaikan dengan path yang sesuai)
   }
 }
